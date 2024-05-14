@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "warning_forms",
+  "info": {
+    "singularName": "warning-form",
+    "pluralName": "warning-forms",
+    "displayName": "WarningForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "store_name": {
+      "type": "text"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

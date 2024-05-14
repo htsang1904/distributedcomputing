@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verifycodes",
+  "info": {
+    "singularName": "verifycode",
+    "pluralName": "verifycodes",
+    "displayName": "verifycode",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
