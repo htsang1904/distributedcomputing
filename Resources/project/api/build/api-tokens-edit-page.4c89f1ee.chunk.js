@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapi=self.webpackChunkapi||[]).push([[92],{28465:function(_,t,e){e.r(t);var n=e(67294),s=e(91134),E=e(87751),a=e(57692);const i=()=>n.createElement(s.O4,{permissions:E.Z.settings["api-tokens"].read},n.createElement(a.Z,null));t.default=i}}]);

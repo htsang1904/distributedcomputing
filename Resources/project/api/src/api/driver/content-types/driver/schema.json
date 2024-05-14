@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drivers",
+  "info": {
+    "singularName": "driver",
+    "pluralName": "drivers",
+    "displayName": "Driver",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "id_card": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "app_screenshot": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "birth": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "app_provider": {
+      "type": "string"
+    },
+    "is_approve": {
+      "type": "boolean"
+    },
+    "reject_reason": {
+      "type": "string"
+    },
+    "approved_status": {
+      "type": "boolean"
+    },
+    "expire_at": {
+      "type": "datetime"
+    }
+  }
+}
